@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type = "text/css" href = "file:///home/jtdinsmo/code/2d-physics/html/css/introduction%2ecss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script>
+window.MathJax = {
+    tex: {
+        macros: {
+            bm: ["{\boldsymbol #1}",1],
+            parens: ["\left( #1 \right)", 1],
+            braces: ["\left\{ #1 \right\}", 1],
+            brackets: ["\left[ #1 \right]", 1],
+            eval: ["\left. #1 \right|", 1],
+            fraci: ["{#1} / {#2}", 2],
+            expp: ["\exp\left( #1 \right)", 1],
+        }
+    }
+}
+    </script>
+    <title>2d-physics</title>
+</head><body><div id="content"><h2><a href="file:///home/jtdinsmo/code/2d-physics/html/index%2ehtml">Home</a> > <a href="file:///home/jtdinsmo/code/2d-physics/html/introduction/index%2ehtml">introduction</a></h2><h1>Review of Lagrangian Mechanics</h1>
+</div><div id="footer">
+Copyright &copy; 2022 Jack Dinsmore. &emsp;Updated April 5. &emsp;Version 0.0</div></body>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {{
+    coll[i].addEventListener("click", function() {{
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight === "0px"){{
+            content.style.maxHeight = content.scrollHeight+"px";
+        }} else {{
+            content.style.maxHeight = "0px";
+        }}
+    }});
+}}
+</script></html>

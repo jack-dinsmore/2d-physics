@@ -1,0 +1,87 @@
+body {
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #000
+}
+
+a {
+    color: #a6a6a6;;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a6a6a6;;
+    font-weight: normal;
+}
+
+a:hover {
+    background: #a6a6a6;;
+    color: #000000;;
+    font-weight: normal;
+}
+
+#content {
+    padding-top: 100px;
+    width: 50em;
+    margin: auto;
+    line-height: 150%;
+    padding-bottom: 3em;
+}
+
+#footer {
+    border-top: solid black 2px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 15em;
+    padding-right: 15em;
+    margin: auto;
+    width: 50em;
+}
+
+.collapsible {
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 5px;
+    line-height: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+}
+  
+.collapsible:hover {
+    background-color: #ededed;;
+}
+
+.section {
+    padding-left: 18px;
+    padding-top: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.caption {
+    font-size: 14px;
+    padding-top: 1em;
+    padding:bottom: 1em;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
